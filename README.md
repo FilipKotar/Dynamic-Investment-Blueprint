@@ -41,5 +41,5 @@ Once the technical principles are satisfied, we have the option of looking into 
 
 ## PART 1: Data Migration Process
 <p align="center">
-  <img width="460" height="300" src="https://cdn1.imggmi.com/uploads/2019/9/25/3bd3a49cef4555519f635f80328359fc-full.png)">
+  <a href="https://imggmi.com" target="_blank"><img src="https://cdn1.imggmi.com/uploads/2019/9/25/3bd3a49cef4555519f635f80328359fc-full.png" border="0"/></a>
 </p>
