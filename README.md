@@ -38,3 +38,7 @@ Once the technical principles are satisfied, we have the option of looking into 
 -	Understand the company and industry
 -	Check if institutions have invested, this is a good source of demand since there will be less outstanding share which drives demand (price) up
 -	Check stock cycle by paying attention to the overall stock market momentum
+
+## PART 1: Data Migration Process
+
+![Data_Migration_Process](https://user-images.githubusercontent.com/19619429/65630169-dd2e3600-dfa2-11e9-9b40-ec6bc2b175c6.PNG)
