@@ -41,5 +41,6 @@ Once the technical principles are satisfied, we have the option of looking into 
 
 ## PART 1: Data Migration Process
 <p align="center">
-  <img width="460" height="300" src="https://user-images.githubusercontent.com/19619429/65630169-dd2e3600-dfa2-11e9-9b40-ec6bc2b175c6.PNG)">
+  <img width="460" height="300" src="![Data_Migration_Process](https://user-images.githubusercontent.com/19619429/65630625-ccca8b00-dfa3-11e9-9d08-40a097eb60ff.PNG)
+)">
 </p>
