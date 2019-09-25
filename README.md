@@ -43,3 +43,52 @@ Once the technical principles are satisfied, we have the option of looking into 
 <p align="center">
   <a href="https://imggmi.com" target="_blank"><img src="https://cdn1.imggmi.com/uploads/2019/9/25/3bd3a49cef4555519f635f80328359fc-full.png" border="0"/></a>
 </p>
+
+
+
+### Company Evaluation Principles
+-	**Margin of Safety:** one of the most important measurements when investing. This is a measure of asking if the company is still a good investment if the price suddenly drops. When you buy the stock at its current price, will you lose a lot if the price drops suddenly. There are many strategies used to measure this attribute:
+  -	Liquidation Value: 
+-	**Key Company Measurements:** earnings and recent stock price strength
+-	**Capital Appreciation:** profit you keep after you buy a stock and sell it
+-	**Stock Splits:** when a company splits the price of each stock, doubling its share volume - a sign that good things are coming for the company
+-	**Bonds:** when an investor buys a bond, they are lending money to the corporation and will be paid back with interest
+-	**Value Investing:** look for companies that are undervalued in the market
+-	**Growth Investment:** look for companies that have potential for high growth potential (x-fold growth)
+-	**Fundamental Analysis:** companies health and potential to succeed
+-	**Technical Analysis:** predict future stock price based on current and projected market conditions and trading volume
+-	**Fiscal Year:** company defined years
+-	**Fiscal Quarter:** company define quarter – does not necessarily need to be January-March but it is classified as any three-month period
+
+## Glossary
+-	**Current Ratio:** reveals how easily a company can deal with unexpected expenses
+  -	Calculation: assets / liabilities
+-	**Dividend Yield:** tells us that the stock price is rising and may be overvalued
+  -	Calculation: annual cash / current price
+-	**Earnings/Share:** if this increases over fiscal quarters we call it earning momentum
+  -	Calculation: earnings / outstanding stock shares
+-	**Net Profit Margin:** company profit
+  -	Calculation: money after expenses / money before expenses
+-	**Price-to-Book Ratio:** liquidation value of a share
+  -	Calculation: Stock Price / Book Value per share
+  -	Book value: owners' equity
+  -	A P/B ratio of less than 1.0 can indicate that a stock is undervalued, while a ratio of greater than 1.0 can indicate that a stock is overvalued
+-	**Price/Earnings Ratio:** 
+  -	Calculation: stock price / earnings per share
+-	**Trailing P/E:** uses earnings from the past 12 months
+-	**Forward P/E:** uses projected earnings from an analyst
+  -	Find ways to project this and do it automatically
+-	**Price/Sales Ratio:** 
+  -	Calculation: market value / sales revenue for one year
+-	**Price/Cash-Flow Ratio:** cash flow after everything is paid off
+  -	Calculation: cash flow – (expenses + running costs)
+-	**Return on Equity:** 
+  -	Calculation: net income / shareholders
+-	**Simple Moving Average:** where the price is heading next
+  -	Calculation: research
+-	**Relative Strength Index:** when a stock price is stretched too far in one direction
+  -	Calculation:
+-	**Relative Price Strength:** stock price compared to prices of other stocks
+  -	Calculation:
+-	**Market Capitalization:** company size
+  -	Calculation:
