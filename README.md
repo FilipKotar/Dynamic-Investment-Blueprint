@@ -21,3 +21,20 @@ After this process is complete, we can escalate our data into technical data sci
 -	**Tools:** second step, cleaning the imported data and migrating it into a readable sheet
 -	**Operating Model:** third step, this is where the magic happens, we can use our validation statements to indicate which companies we want to look at on a technical level. This is the point where we can apply analysis and possibly data science principles on a micro level to make future predictions. 
 -	**Governance:** final step, visual and written distribution of a company so that an associate can look at the company and evaluate it further. This could be a verification of the company on a macro level with someone who has experience. This is the point where a fundamental analysis can be made with validation metrics such as macro psychology. 
+
+## Technical Analysis Principles
+The first rule of investing is to not speculate. To reduce speculation, I have outlined some rules that my program will calculate:
+-	Profits annually/quarterly are increasing
+-	High cash reserve, low debt owed
+-	P/E ratio
+-	Price-to-Book ratio
+-	Shares in circulation should be low 
+-	Company should grow minimum of 25 percent per year
+
+## Fundamental Analysis Principles
+Once the technical principles are satisfied, we have the option of looking into the company's social environment. Some rules we can follow are:
+-	Capable management
+-	Recent social news
+-	Understand the company and industry
+-	Check if institutions have invested, this is a good source of demand since there will be less outstanding share which drives demand (price) up
+-	Check stock cycle by paying attention to the overall stock market momentum
