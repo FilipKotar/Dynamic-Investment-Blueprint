@@ -40,5 +40,6 @@ Once the technical principles are satisfied, we have the option of looking into 
 -	Check stock cycle by paying attention to the overall stock market momentum
 
 ## PART 1: Data Migration Process
-
-![Data_Migration_Process](https://user-images.githubusercontent.com/19619429/65630169-dd2e3600-dfa2-11e9-9b40-ec6bc2b175c6.PNG)
+<p align="center">
+  <img width="460" height="300" src="https://user-images.githubusercontent.com/19619429/65630169-dd2e3600-dfa2-11e9-9b40-ec6bc2b175c6.PNG)">
+</p>
