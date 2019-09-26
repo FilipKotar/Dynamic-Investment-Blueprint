@@ -177,24 +177,22 @@ Once the technical principles are satisfied, we have the option of looking into 
 |                       |               |Net Debt                         |
 |                       |               |Other Assets                     |
 |                       |               |Other Liabilities                |
-
-Cash Flow Statement		
-|date
-|Depreciation & Amortization
-|Stock-based compensation
-|Operating Cash Flow
-|Capital Expenditure
-|Acquisitions and disposals
-|Investment purchases and sales
-|Investing Cash flow
-|Issuance (repayment) of debt
-|Issuance (buybacks) of shares
-|Dividend payments
-|Financing Cash Flow 
-|Effect of forex changes on cash
-|Net cash flow / Change in cash
-|Free cash flow
-|Net Cash/Marketcap
+|Cash Flow Statement    |               |date                             |
+|                       |               |Depreciation & Amortization      |               
+|                       |               |Stock-based compensation         |
+|                       |               |Operating Cash Flow              |
+|                       |               |Capital Expenditure              |
+|                       |               |Acquisitions and disposals       |
+|                       |               |Investment purchases and sales   |
+|                       |               |Investing Cash flow              |
+|                       |               |Issuance (repayment) of debt     |
+|                       |               |Issuance (buybacks) of shares    |
+|                       |               |Dividend payments                |
+|                       |               |Financing Cash Flow              |
+|                       |               |Effect of forex changes on cash  |
+|                       |               |Net cash flow / Change in cash   |
+|                       |               |Free cash flow                   |
+|                       |               |Net Cash/Marketcap               |
 
 Company Financial Ratios	Annual	date
 |investmentValuationRatios {
