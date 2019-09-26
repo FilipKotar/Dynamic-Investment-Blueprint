@@ -48,20 +48,13 @@ Once the technical principles are satisfied, we have the option of looking into 
   <a href="https://imggmi.com" target="_blank"><img src="https://cdn1.imggmi.com/uploads/2019/9/25/3bd3a49cef4555519f635f80328359fc-full.png" border="0"/></a>
 </p>
 
-- Explanation
+- **Explanation**
 
-1. First ordered list item
-2. Another item
-⋅⋅* Unordered sub-list. 
-1. Actual numbers don't matter, just that it's a number
-⋅⋅1. Ordered sub-list
-4. And another item.
+1. An API is called to extract JSON data from a URL of a website (data containing stock market attributes)
+2. This data is stored into a temporary list
+3. By converting the list into a dataframe we will be able to work with any availably data
 
-⋅⋅⋅You can have properly indented paragraphs within list items. Notice the blank line above, and the leading spaces (at least one, but we'll use three here to also align the raw Markdown).
-
-⋅⋅⋅To have a line break without a paragraph, you will need to use two trailing spaces.⋅⋅
-⋅⋅⋅Note that this line is separate, but within the same paragraph.⋅⋅
-⋅⋅⋅(This is contrary to the typical GFM line break behaviour, where trailing spaces are not required.)
+- The process above will be iterated multiple times through different website path's until we have all requested data
 
 
 ## PART 2: Indicator Analysis Calculator
