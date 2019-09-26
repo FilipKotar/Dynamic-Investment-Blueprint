@@ -213,7 +213,7 @@ Below is a file directory
 |                             |               |enterpriseValueMultiple          |
 |                             |               |priceFairValue                   |
 |                             |               |                                 |
-|**Company Enterprise Value** |Annual/Quarter |Date                             |
+|**Company Enterprise Value** |Annual/Quarter |date                             |
 |                             |               |Stock Price                      |
 |                             |               |Number of Shares                 |
 |                             |               |Market Capitalization            |
@@ -221,7 +221,7 @@ Below is a file directory
 |                             |               |+ Total Debt                     |
 |                             |               |Enterprise Value                 |
 |                             |               |                                 |
-|**Company Key Metrics**      |Annual/Quarter |Date                             |
+|**Company Key Metrics**      |Annual/Quarter |date                             |
 |                             |               |Revenue per Share                |
 |                             |               |Net Income per Share             |
 |                             |               |Operating Cash Flow per Share    |
@@ -270,25 +270,25 @@ Below is a file directory
 |                             |               |Average Payables                 |
 |                             |               |Average Inventory                |
 |                             |               |Capex per Share                  |
-
-Company Financial Growth	Annual/Quarter	Date
-|||Gross Profit Growth
-|||EBIT Growth
-|||Operating Income Growth
-|||Net Income Growth
-|||EPS Growth
-|||EPS Diluted Growth
-|||Weighted Average Shares Growth
-|||Weighted Average Shares Diluted Growth
-|||Dividends per Share Growth
-|||Operating Cash Flow growth
-|||Free Cash Flow growth
-|||Receivables growth
-|||Inventory Growth
-|||Asset Growth
-|||Book Value per Share Growth
-|||Debt Growth
-|||R&D Expense Growth
-|||SG&A Expenses Growth
+|                             |               |                                 |
+|**Company Financial Growth** |Annual/Quarter |date                             |
+|                             |               |Gross Profit Growth              |                     
+|                             |               |EBIT Growth                      |
+|                             |               |Operating Income Growth          |
+|                             |               |Net Income Growth                |
+|                             |               |EPS Growth                       |
+|                             |               |EPS Diluted Growth               |
+|                             |               |Weighted Average Shares Growth   |
+|                             |               |Weighted Average Shares Diluted Growth|
+|                             |               |Dividends per Share Growth       |
+|                             |               |Operating Cash Flow growth       |
+|                             |               |Free Cash Flow growth            |
+|                             |               |Receivables growth               |
+|                             |               |Inventory Growth                 |
+|                             |               |Asset Growth                     |
+|                             |               |Book Value per Share Growth      |
+|                             |               |Debt Growth                      |
+|                             |               |R&D Expense Growth               |
+|                             |               |SG&A Expenses Growth             |
 
 
