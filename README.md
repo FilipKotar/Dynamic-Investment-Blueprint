@@ -4,7 +4,7 @@
 *Call a stock market API to target companies of interest while instantly eradicating any companies that do not pass validation boundaries from our initial investment strategy. This project will serve as a benchmark for future phases which will implement Machine Learning principles for calculating future Margin of Safety and Stock Prices*
 
 ## Why? 
-Finding new talent to invest in may be tough and time consuming. By validating companies with real-time updated data provided by a third-party company's API, we can save time and focus fundamental investment strategies. Note: achievement of growth or value investing
+Finding new talent to invest in may be tough and time consuming. This program can validate the whole stock market in seconds with real-time stock data. Call it a scanner - much more than that we can retrieve relevant technical data that we can leverage with Machine Learning, and AI.
 
 ## This Project
 The project that you will read about here is only an illustration of what we can accomplish with my program. This program may be re-used with any technical parameters of interest and will output an analysis that can be used for projections and straight forward visualization diagrams. In this example we will call the API and validate any companies that fit our 'growth' investing scope (boundaries). Growth investing methods look for smaller companies that have potential for high growth in the future. Although this method is prone to possible loss, if we win there is a much better payout. So lets hundred-fold our investment!
