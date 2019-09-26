@@ -1,7 +1,7 @@
-# Dynamic Investment Blueprint by Filip Skotarski
+# Dynamic Investment Blueprint *by Filip Skotarski*
 
 ## Goal
-Call a stock market API to target companies of interest while instantly eradicating any companies that do not pass validation boundaries from our initial investment strategy. This project will serve as a benchmark for future phases. (Consulting Analyst Company or Intrapreneur in a hedge fund)
+*Call a stock market API to target companies of interest while instantly eradicating any companies that do not pass validation boundaries from our initial investment strategy. This project will serve as a benchmark for future phases which will implement Machine Learning principles for calculating future Margin of Safety and Stock Prices*
 
 ## Why? 
 Finding new talent to invest in may be tough and time consuming. By validating companies with real-time updated data provided by a third-party company's API, we can save time and focus fundamental investment strategies. Note: achievement of growth or value investing
@@ -42,7 +42,7 @@ Once the technical principles are satisfied, we have the option of looking into 
 ## PART 1: Data Migration
 
 **Procedure**
-- This process lays the foundation of the whole script. Any stock attributes we would like to work with will be migration to our main dataframe. 
+- This process *lays the foundation* of the whole script. Any stock attributes we would like to work with will be migration to our main dataframe. (Stock attributes are defined in the *'Attribute Bank Directory'* below)
 
 <p align="center">
   <a href="https://imggmi.com" target="_blank"><img src="https://cdn1.imggmi.com/uploads/2019/9/25/3bd3a49cef4555519f635f80328359fc-full.png" border="0"/></a>
@@ -54,7 +54,8 @@ Once the technical principles are satisfied, we have the option of looking into 
 2. This data is stored into a temporary list
 3. By converting the list into a dataframe we will be able to work with any availably data
 
-- The process above will be iterated multiple times through different website path's until we have all requested data
+- The process above will be *iterated multiple times* through different website path's until we have all requested data
+- Shown below is this standard process written in **Python**
 
 ```python
 try:
@@ -83,7 +84,18 @@ def get_jsonparsed_data(url):
     data = response.read().decode("utf-8")
     return json.loads(data)
 ```
-
+```python
+def json_to_empty_dataframe(dictionary):
+    columns = ['Company']
+    # Create a list of the dictionary keys
+    for keys in dictionary:
+        columns.append(keys)
+    
+    # Create a dataframe with the columns
+    initial_dataframe = pd.DataFrame(columns=columns)
+    
+    return initial_dataframe
+```
 
 ## PART 2: Indicator Analysis Calculator
 
@@ -123,7 +135,7 @@ def get_jsonparsed_data(url):
 -	**Relative Price Strength:** stock price compared to prices of other stocks
 -	**Market Capitalization:** company size
   
-## Attribute Bank
+## Attribute Bank Directory
 - When making an HTTP Request for stock market attributes it's important to have a directory reference so you can find what you're looking for. 
 - **Program (In-Use)**: Income Statement, Stock Historical Price
 
