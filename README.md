@@ -39,12 +39,24 @@ Once the technical principles are satisfied, we have the option of looking into 
 -	Check if institutions have invested, this is a good source of demand since there will be less outstanding share which drives demand (price) up
 -	Check stock cycle by paying attention to the overall stock market momentum
 
-## PART 1: Data Migration Process
+## PART 1: Data Migration
+
+**Procedure**
+- This process lays the foundation of the whole script. Any stock attributes we would like to work with will be migration to our main dataframe. 
+
 <p align="center">
   <a href="https://imggmi.com" target="_blank"><img src="https://cdn1.imggmi.com/uploads/2019/9/25/3bd3a49cef4555519f635f80328359fc-full.png" border="0"/></a>
 </p>
 
+- Explanation
 
+⋅⋅1. Ordered sub-list
+
+## PART 2: Indicator Analysis Calculator
+
+## PART 3: Margin of Safety Calculator
+
+## PART 4: Data Visualization
 
 ### Company Evaluation Principles
 -	**Margin of Safety:** one of the most important measurements when investing. This is a measure of asking if the company is still a good investment if the price suddenly drops. When you buy the stock at its current price, will you lose a lot if the price drops suddenly. There are many strategies used to measure this attribute:
