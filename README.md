@@ -1,28 +1,25 @@
 # Dynamic Investment Blueprint *by Filip Skotarski*
 
 ## Goal
-*Call a stock market API to target companies of interest while instantly eradicating any companies that do not pass validation boundaries from our initial investment strategy. This project will serve as a benchmark for future phases which will implement Machine Learning principles for calculating future Margin of Safety and Stock Prices*
+*Call a stock market API to target companies of interest while instantly omitting any companies that do not pass validation boundaries from our initial investment strategy. This project will serve as a benchmark for future phases which will implement Machine Learning principles for calculating leading Margin of Safety and Stock Prices*
 
 ## Why? 
 Finding new talent to invest in may be tough and time consuming. This program can validate the whole stock market in seconds with real-time stock data. Call it a scanner - much more than that we can retrieve relevant technical data that we can leverage with Machine Learning, and AI.
 
-## This Project
-The project that you will read about here is only an illustration of what we can accomplish with my program. This program may be re-used with any technical parameters of interest and will output an analysis that can be used for projections and straight forward visualization diagrams. In this example we will call the API and validate any companies that fit our 'growth' investing scope (boundaries). Growth investing methods look for smaller companies that have potential for high growth in the future. Although this method is prone to possible loss, if we win there is a much better payout. So lets hundred-fold our investment!
+## This Project 
+The report that you will read about here is only an illustration of what we can accomplish with my program. This program may be re-used with any technical parameters of interest and will output an analysis that can be used for projections and straight forward visualization diagrams. In this example we will call the API and validate any companies that fit our 'growth' investing scope (boundaries). Growth investing methods look for smaller companies that have potential for high growth in the future. Although this method is prone to possible loss, if we win there is a much better payout. So lets hundred-fold our investment!
 
-## User Experience
+## User Experience (future)
 This program is currently on phase 0 and can only be altered by coding at the least a programming novice. In future versions, anybody will be able to use it as it will have a graphical user interface (GUI)
-
-## Future
-After this process is complete, we can escalate our data into technical data science principles such as Machine Learning for an even higher level of certainty. Stock market investing goes far beyond fundamental analysis which is done by analysts/investors that have a lot of experience within the industry. We want to combine fundamental analysis with reliable technical data that is 'number crunched' instantly by our algorithms.
 
 ## Macro Stages of Our Data
 
--	**Data:** first step, we need to import our metadata from some raw data source. At this point the most reliable place would be to find a stock market API which we can use.
--	**Tools:** second step, cleaning the imported data and migrating it into a readable sheet
--	**Operating Model:** third step, this is where the magic happens, we can use our validation statements to indicate which companies we want to look at on a technical level. This is the point where we can apply analysis and possibly data science principles on a micro level to make future predictions. 
--	**Governance:** final step, visual and written distribution of a company so that an associate can look at the company and evaluate it further. This could be a verification of the company on a macro level with someone who has experience. This is the point where a fundamental analysis can be made with validation metrics such as macro psychology. 
+1.	**Data:** first step, we need to import our metadata from some raw data source. At this point the most reliable place would be to find a stock market API which we can use.
+2.	**Tools:** second step, cleaning the imported data and migrating it into a readable sheet
+3.	**Operating Model:** third step, this is where the magic happens, we can use our validation statements to indicate which companies we want to look at on a technical level. This is the point where we can apply analysis and possibly data science principles on a micro level to make future predictions. 
+4.	**Governance:** final step, visual and written distribution of a company so that an associate can look at the company and evaluate it further. This could be a verification of the company on a macro level with someone who has experience. This is the point where a fundamental analysis can be made with validation metrics such as macro psychology. 
 
-## Technical Analysis Principles
+## Technical Analysis Principles 
 The first rule of investing is to not speculate. To reduce speculation, I have outlined some rules that my program will calculate:
 -	Profits annually/quarterly are increasing
 -	High cash reserve, low debt owed
@@ -30,6 +27,7 @@ The first rule of investing is to not speculate. To reduce speculation, I have o
 -	Price-to-Book ratio
 -	Shares in circulation should be low 
 -	Company should grow minimum of 25 percent per year
+- **Will update after demo is completed**
 
 ## Fundamental Analysis Principles
 Once the technical principles are satisfied, we have the option of looking into the company's social environment. Some rules we can follow are:
@@ -38,6 +36,7 @@ Once the technical principles are satisfied, we have the option of looking into 
 -	Understand the company and industry
 -	Check if institutions have invested, this is a good source of demand since there will be less outstanding share which drives demand (price) up
 -	Check stock cycle by paying attention to the overall stock market momentum
+- **Will update after demo is completed**
 
 ## PART 1: Data Migration
 
