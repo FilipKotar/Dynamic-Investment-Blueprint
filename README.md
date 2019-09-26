@@ -96,103 +96,105 @@ Once the technical principles are satisfied, we have the option of looking into 
 ## Attribute Bank
 - When making an HTTP Request for stock market attributes it's important to have a directory reference so you can find what you're looking for. Below is a file directory
 
-| File Type             | Time Stamp    | Attributes                      |
-| --------------------- |:-------------:| -------------------------------:|
-|**Profile (Not Used)** | Hourly        |price                            |
-|                       |               |beta                             |
-|                       |               |volAvg                           |
-|                       |               |mktCap                           |
-|                       |               |lastDiv                          |
-|                       |               |range                            |
-|                       |               |changes                          |
-|                       |               |changesPercentage                |
-|                       |               |companyName                      |
-|                       |               |exchange                         |
-|                       |               |industry                         |
-|                       |               |website                          |
-|                       |               |description                      |
-|                       |               |ceo                              |
-|                       |               |sector                           |
-|                       |               |                                 |
-|**Income Statement**   |Annual/Quarter |date                            |                     
-|                       |               |Revenue                          |                     
-|                       |               |Revenue Growth                   |                        
-|                       |               |Cost of Revenue                  |
-|                       |               |Gross Profit                     |
-|                       |               |R&D Expenses                     |
-|                       |               |SG&A Expenses                    |
-|                       |               |Operating Expenses               |
-|                       |               |Operating Income                 |
-|                       |               |Interest Expense                 |
-|                       |               |Earnings before Tax              |
-|                       |               |Income Tax Expense               |
-|                       |               |Net Income – Non-Controlling int |
-|                       |               |Net Income – Discontinued ops    |
-|                       |               |Net Income                       |
-|                       |               |Preferred Dividends              |
-|                       |               |Net Income Com                   |
-|                       |               |EPS                              |
-|                       |               |EPS Diluted                      |
-|                       |               |Weighted Average Shs Out         |
-|                       |               |Weighted Average Shs Out (Dil)   |
-|                       |               |Dividend per Share               |
-|                       |               |Gross Margin                     |
-|                       |               |EBITDA Margin                    |
-|                       |               |EBIT Margin                      |
-|                       |               |Profit Margin                    |
-|                       |               |Free Cash Flow margin            |
-|                       |               |EBITDA                           |
-|                       |               |EBIT                             |
-|                       |               |Consolidated Income              |
-|                       |               |Earnings Before Tax Margin       |
-|                       |               |Net Profit Margin                |
-|                       |               |                                 |
-|Balance Sheet Statement|Annual/Quarter |date                             |
-|                       |               |Cash and cash equivalents        |
-|                       |               |Short-term investments           |
-|                       |               |Cash and short-term investments  |
-|                       |               |Receivables                      |
-|                       |               |Inventories                      |
-|                       |               |Total current assets             |
-|                       |               |Property, Plant & Equipment Net  |
-|                       |               |Goodwill and Intangible Assets   |
-|                       |               |Long-term investments            |
-|                       |               |Tax assets                       |
-|                       |               |Total non-current assets         |
-|                       |               |Total assets                     |
-|                       |               |Payables                         |
-|                       |               |Short-term debt                  |
-|                       |               |Total current liabilities        |
-|                       |               |Long-term debt                   |
-|                       |               |Total debt                       |
-|                       |               |Deferred revenue                 |
-|                       |               |Tax liabilities                  |
-|                       |               |Deposit Liabilities              |
-|                       |               |Total non-current liabilities    |
-|                       |               |Total liabilities                |
-|                       |               |Other comprehensive income       |
-|                       |               |Retained earnings (deficit)      |
-|                       |               |Total shareholders equity        |
-|                       |               |Investments                      |
-|                       |               |Net Debt                         |
-|                       |               |Other Assets                     |
-|                       |               |Other Liabilities                |
-|Cash Flow Statement    |               |date                             |
-|                       |               |Depreciation & Amortization      |               
-|                       |               |Stock-based compensation         |
-|                       |               |Operating Cash Flow              |
-|                       |               |Capital Expenditure              |
-|                       |               |Acquisitions and disposals       |
-|                       |               |Investment purchases and sales   |
-|                       |               |Investing Cash flow              |
-|                       |               |Issuance (repayment) of debt     |
-|                       |               |Issuance (buybacks) of shares    |
-|                       |               |Dividend payments                |
-|                       |               |Financing Cash Flow              |
-|                       |               |Effect of forex changes on cash  |
-|                       |               |Net cash flow / Change in cash   |
-|                       |               |Free cash flow                   |
-|                       |               |Net Cash/Marketcap               |
+| File Type                   | Time Stamp    | Attributes                      |
+| --------------------------- |:-------------:| -------------------------------:|
+|**Profile (Not Used)**       | Hourly        |price                            |
+|                             |               |beta                             |
+|                             |               |volAvg                           |
+|                             |               |mktCap                           |
+|                             |               |lastDiv                          |
+|                             |               |range                            |
+|                             |               |changes                          |
+|                             |               |changesPercentage                |
+|                             |               |companyName                      |
+|                             |               |exchange                         |
+|                             |               |industry                         |
+|                             |               |website                          |
+|                             |               |description                      |
+|                             |               |ceo                              |
+|                             |               |sector                           |
+|                             |               |                                 |
+|**Income Statement**         |Annual/Quarter |date                             |                     
+|                             |               |Revenue                          |                     
+|                             |               |Revenue Growth                   |                        
+|                             |               |Cost of Revenue                  |
+|                             |               |Gross Profit                     |
+|                             |               |R&D Expenses                     |
+|                             |               |SG&A Expenses                    |
+|                             |               |Operating Expenses               |
+|                             |               |Operating Income                 |
+|                             |               |Interest Expense                 |
+|                             |               |Earnings before Tax              |
+|                             |               |Income Tax Expense               |
+|                             |               |Net Income – Non-Controlling int |
+|                             |               |Net Income – Discontinued ops    |
+|                             |               |Net Income                       |
+|                             |               |Preferred Dividends              |
+|                             |               |Net Income Com                   |
+|                             |               |EPS                              |
+|                             |               |EPS Diluted                      |
+|                             |               |Weighted Average Shs Out         |
+|                             |               |Weighted Average Shs Out (Dil)   |
+|                             |               |Dividend per Share               |
+|                             |               |Gross Margin                     |
+|                             |               |EBITDA Margin                    |
+|                             |               |EBIT Margin                      |
+|                             |               |Profit Margin                    |
+|                             |               |Free Cash Flow margin            |
+|                             |               |EBITDA                           |
+|                             |               |EBIT                             |
+|                             |               |Consolidated Income              |
+|                             |               |Earnings Before Tax Margin       |
+|                             |               |Net Profit Margin                |
+|                             |               |                                 |
+|                             |               |                                 |
+|**Balance Sheet Statement**  |Annual/Quarter |date                             |
+|                             |               |Cash and cash equivalents        |
+|                             |               |Short-term investments           |
+|                             |               |Cash and short-term investments  |
+|                             |               |Receivables                      |
+|                             |               |Inventories                      |
+|                             |               |Total current assets             |
+|                             |               |Property, Plant & Equipment Net  |
+|                             |               |Goodwill and Intangible Assets   |
+|                             |               |Long-term investments            |
+|                             |               |Tax assets                       |
+|                             |               |Total non-current assets         |
+|                             |               |Total assets                     |
+|                             |               |Payables                         |
+|                             |               |Short-term debt                  |
+|                             |               |Total current liabilities        |
+|                             |               |Long-term debt                   |
+|                             |               |Total debt                       |
+|                             |               |Deferred revenue                 |
+|                             |               |Tax liabilities                  |
+|                             |               |Deposit Liabilities              |
+|                             |               |Total non-current liabilities    |
+|                             |               |Total liabilities                |
+|                             |               |Other comprehensive income       |
+|                             |               |Retained earnings (deficit)      |
+|                             |               |Total shareholders equity        |
+|                             |               |Investments                      |
+|                             |               |Net Debt                         |
+|                             |               |Other Assets                     |
+|                             |               |Other Liabilities                |
+|                             |               |                                 |
+|**Cash Flow Statement**      |               |date                             |
+|                             |               |Depreciation & Amortization      |               
+|                             |               |Stock-based compensation         |
+|                             |               |Operating Cash Flow              |
+|                             |               |Capital Expenditure              |
+|                             |               |Acquisitions and disposals       |
+|                             |               |Investment purchases and sales   |
+|                             |               |Investing Cash flow              |
+|                             |               |Issuance (repayment) of debt     |
+|                             |               |Issuance (buybacks) of shares    |
+|                             |               |Dividend payments                |
+|                             |               |Financing Cash Flow              |
+|                             |               |Effect of forex changes on cash  |
+|                             |               |Net cash flow / Change in cash   |
+|                             |               |Free cash flow                   |
+|                             |               |Net Cash/Marketcap               |
 
 Company Financial Ratios	Annual	date
 |investmentValuationRatios {
