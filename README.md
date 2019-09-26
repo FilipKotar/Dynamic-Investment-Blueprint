@@ -94,11 +94,14 @@ Once the technical principles are satisfied, we have the option of looking into 
   -	Calculation:
   
 ## Attribute Bank
-- When making an HTTP Request for stock market attributes it's important to have a directory reference so you can find what you're looking for. Below is a file directory
+- When making an HTTP Request for stock market attributes it's important to have a directory reference so you can find what you're looking for. 
+- **Program (In-Use)**: Income Statement, Stock Historical Price
+
+Below is a file directory
 
 | File Type                   | Time Stamp    | Attributes                      |
 | --------------------------- |:-------------:| -------------------------------:|
-|**Profile (Not Used)**       | Hourly        |price                            |
+|**Profile**                  | Hourly        |price                            |
 |                             |               |beta                             |
 |                             |               |volAvg                           |
 |                             |               |mktCap                           |
@@ -147,7 +150,6 @@ Once the technical principles are satisfied, we have the option of looking into 
 |                             |               |Earnings Before Tax Margin       |
 |                             |               |Net Profit Margin                |
 |                             |               |                                 |
-|                             |               |                                 |
 |**Balance Sheet Statement**  |Annual/Quarter |date                             |
 |                             |               |Cash and cash equivalents        |
 |                             |               |Short-term investments           |
@@ -179,7 +181,7 @@ Once the technical principles are satisfied, we have the option of looking into 
 |                             |               |Other Assets                     |
 |                             |               |Other Liabilities                |
 |                             |               |                                 |
-|**Cash Flow Statement**      |               |date                             |
+|**Cash Flow Statement**      |Annual/Quarter |date                             |
 |                             |               |Depreciation & Amortization      |               
 |                             |               |Stock-based compensation         |
 |                             |               |Operating Cash Flow              |
@@ -195,98 +197,99 @@ Once the technical principles are satisfied, we have the option of looking into 
 |                             |               |Net cash flow / Change in cash   |
 |                             |               |Free cash flow                   |
 |                             |               |Net Cash/Marketcap               |
-
-Company Financial Ratios	Annual	date
-|investmentValuationRatios {
-|priceBookValueRatio
-|priceToBookRatio
-|priceToSalesRatio
-|priceEarningsRatio
-|receivablesTurnover
-|priceToFreeCashFlowsRatio
-|priceCashFlowRatio
-|priceEarningsToGrowthRatio
-|priceSalesRatio
-|dividendYield
-|enterpriseValueMultiple
-|priceFairValue
-
+|**Company Financial Ratios** |Annual         |date                             |
+|                             |               |investmentValuationRatios {      |
+|                             |               |priceBookValueRatio              |
+|                             |               |priceToBookRatio                 |
+|                             |               |priceToSalesRatio                |
+|                             |               |priceEarningsRatio               |
+|                             |               |receivablesTurnover              |
+|                             |               |priceToFreeCashFlowsRatio        |
+|                             |               |priceCashFlowRatio               |
+|                             |               |priceEarningsToGrowthRatio       |
+|                             |               |priceSalesRatio                  |
+|                             |               |dividendYield                    |
+|                             |               |enterpriseValueMultiple          |
+|                             |               |priceFairValue                   |
+|**Company Enterprise Value** |Annual/Quarter |
 
 Company Enterprise Value	Annual/Quarter	
-|Date
-|Stock Price
-|Number of Shares
-|Market Capitalization
-|- Cash & Cash Equivalents
-|+ Total Debt
-|Enterprise Value
-|Company Key Metrics	Annual/Quarter	Date
-|Revenue per Share
-|Net Income per Share
-|Operating Cash Flow per Share
+|||Date
+|||Stock Price
+|||Number of Shares
+|||Market Capitalization
+|||- Cash & Cash Equivalents
+|||+ Total Debt
+|||Enterprise Value
+
+
+Company Key Metrics	Annual/Quarter	Date
+|||Revenue per Share
+|||Net Income per Share
+|||Operating Cash Flow per Share
 |Free Cash Flow per Share
-|Cash per Share
-|Book Value per Share
-|Tangible Book Value per Share
-|Shareholders Equity per Share
-|Interest Debt per Share
-|Market Cap
-|Enterprise Value
-|PE ratio
-|Price to Sales Ratio
-|POCF ratio
-|PFCF ratio
-|PB ratio
-|PTB ratio
-|EV to Sales
-|Enterprise Value over EBITDA
-|EV to Operating cash flow
-|EV to Free cash flow
-|Earnings Yield
-|Free Cash Flow Yield
-Debt to Equity
-Debt to Assets
-Net Debt to EBITDA
-Current ratio
-Interest Coverage
-Income Quality 
-Dividend Yield
-Payout Ratio
-SG&A to Revenue
-R&D to Revenue
-Intangibles to Total Assets
-Capex to Operating Cash Flow
-Capex to Revenue
-Capex to Depreciation
-Stock-based compensation to Revenue
-Graham Number
-Graham Net-Net
-Working Capital
-Tangible Asset Value
-Net Current Asset Value
-Invested Capital
-Average Receivables
-Average Payables
-Average Inventory
-Capex per Share
-Company Financial Growth	Annual/Quarter	Date
-Gross Profit Growth
-EBIT Growth
-Operating Income Growth
-Net Income Growth
-EPS Growth
-EPS Diluted Growth
-Weighted Average Shares Growth
-Weighted Average Shares Diluted Growth
-Dividends per Share Growth
-Operating Cash Flow growth
-Free Cash Flow growth
-Receivables growth
-Inventory Growth
-Asset Growth
-Book Value per Share Growth
-Debt Growth
-R&D Expense Growth
-SG&A Expenses Growth
+|||Cash per Share
+|||Book Value per Share
+|||Tangible Book Value per Share
+|||Shareholders Equity per Share
+|||Interest Debt per Share
+|||Market Cap
+|||Enterprise Value
+|||PE ratio
+|||Price to Sales Ratio
+|||POCF ratio
+|||PFCF ratio
+|||PB ratio
+|||PTB ratio
+|||EV to Sales
+|||Enterprise Value over EBITDA
+|||EV to Operating cash flow
+|||EV to Free cash flow
+|||Earnings Yield
+|||Free Cash Flow Yield
+|||Debt to Equity
+|||Debt to Assets
+|||Net Debt to EBITDA
+|||Current ratio
+|||Interest Coverage
+|||Income Quality 
+|||Dividend Yield
+|||Payout Ratio
+|||SG&A to Revenue
+|||R&D to Revenue
+|||Intangibles to Total Assets
+|||Capex to Operating Cash Flow
+|||Capex to Revenue
+|||Capex to Depreciation
+|||Stock-based compensation to Revenue
+|||Graham Number
+|||Graham Net-Net
+|||Working Capital
+|||Tangible Asset Value
+|||Net Current Asset Value
+|||Invested Capital
+|||Average Receivables
+|||Average Payables
+|||Average Inventory
+|||Capex per Share
+|||Company Financial Growth	Annual/Quarter	Date
+|||Gross Profit Growth
+|||EBIT Growth
+|||Operating Income Growth
+|||Net Income Growth
+|||EPS Growth
+|||EPS Diluted Growth
+|||Weighted Average Shares Growth
+|||Weighted Average Shares Diluted Growth
+|||Dividends per Share Growth
+|||Operating Cash Flow growth
+|||Free Cash Flow growth
+|||Receivables growth
+|||Inventory Growth
+|||Asset Growth
+|||Book Value per Share Growth
+|||Debt Growth
+|||R&D Expense Growth
+|||SG&A Expenses Growth
 
 
