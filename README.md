@@ -62,36 +62,21 @@ Once the technical principles are satisfied, we have the option of looking into 
 
 ## Glossary
 -	**Current Ratio:** reveals how easily a company can deal with unexpected expenses
-  -	Calculation: assets / liabilities
 -	**Dividend Yield:** tells us that the stock price is rising and may be overvalued
-  -	Calculation: annual cash / current price
 -	**Earnings/Share:** if this increases over fiscal quarters we call it earning momentum
-  -	Calculation: earnings / outstanding stock shares
 -	**Net Profit Margin:** company profit
-  -	Calculation: money after expenses / money before expenses
--	**Price-to-Book Ratio:** liquidation value of a share
-  -	Calculation: Stock Price / Book Value per share
-  -	Book value: owners' equity
-  -	A P/B ratio of less than 1.0 can indicate that a stock is undervalued, while a ratio of greater than 1.0 can indicate that a stock is overvalued
--	**Price/Earnings Ratio:** 
-  -	Calculation: stock price / earnings per share
+-	**Price-to-Book Ratio:** liquidation value of a share. (< 1 indicates stock is undervalued, > 1 indicates stock is overvalued)
+- **Book value:** owners' equity
+-	**Price/Earnings Ratio:** indicates the dollar amount an investor can expect to invest in a company in order to receive one dollar of that company's earnings
 -	**Trailing P/E:** uses earnings from the past 12 months
 -	**Forward P/E:** uses projected earnings from an analyst
-  -	Find ways to project this and do it automatically
--	**Price/Sales Ratio:** 
-  -	Calculation: market value / sales revenue for one year
+-	**Price/Sales Ratio:** measure of a companies size to revenue from sales (the lower the better)
 -	**Price/Cash-Flow Ratio:** cash flow after everything is paid off
-  -	Calculation: cash flow – (expenses + running costs)
--	**Return on Equity:** 
-  -	Calculation: net income / shareholders
+-	**Return on Equity:** profitability in relation to equity (assets - liabilities)
 -	**Simple Moving Average:** where the price is heading next
-  -	Calculation: research
 -	**Relative Strength Index:** when a stock price is stretched too far in one direction
-  -	Calculation:
 -	**Relative Price Strength:** stock price compared to prices of other stocks
-  -	Calculation:
 -	**Market Capitalization:** company size
-  -	Calculation:
   
 ## Attribute Bank
 - When making an HTTP Request for stock market attributes it's important to have a directory reference so you can find what you're looking for. 
