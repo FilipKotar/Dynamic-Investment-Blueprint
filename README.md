@@ -136,7 +136,7 @@ def json_to_empty_dataframe(dictionary):
   
 ## Attribute Bank Directory
 - When making an HTTP Request for stock market attributes it's important to have a directory reference so you can find what you're looking for. 
-- **Program (In-Use)**: Income Statement, Stock Historical Price
+- **Program (In-Use)**: *Income Statement*, *Stock Historical Price*, *Company Key Metrics*
 
 Below is a file directory
 
